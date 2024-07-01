@@ -45,7 +45,7 @@ python ETL.py run
 ```
 ### Working of the Project
 
-#### 1. Data Exploration and Initial ETL Development
+#### 1. Data Exploration and Initial ETL Development on ETL.ipynb
 The `ETL.ipynb` notebook is used for the initial ETL development:
 
 - **Data Ingestion**: Load the Airbnb NYC dataset from a CSV file (`AB_NYC_2019.csv`) into a pandas DataFrame.
@@ -57,7 +57,7 @@ The `ETL.ipynb` notebook is used for the initial ETL development:
   - Calculate the total number of listings per neighborhood and add it as a new column (`listings_count_neighborhood`).
 - **Data Loading**: Load the transformed DataFrame into a PostgreSQL table named `airbnb_listings_enhanced`.
 
-### 2. Then after the development is done in the ETL.ipynb file , I created the ETL.py to start the workflow using metaflow. The working of the .py file using metaflow is as follows -
+#### 2. Then after the development is done in the ETL.ipynb file , I created the ETL.py to start the workflow using metaflow. The working of the .py file using metaflow is as follows -
 
 **The ETL.py script to define an automated ETL workflow:**
 
