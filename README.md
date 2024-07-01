@@ -39,8 +39,12 @@ The dataset used in this project is the **Airbnb New York City 2019** dataset, a
     ```
 
 3. Set up your PostgreSQL database and create a database named `airbnb-ny`. Update the database connection parameters in both `ETL.ipynb` and `ETL.py` with your PostgreSQL credentials.
-
-### Running the Project
+4. 
+To run the notebook:
+```sh
+python ETL.py run
+```
+### Working of the Project
 
 #### 1. Data Exploration and Initial ETL Development
 The `ETL.ipynb` notebook is used for the initial ETL development:
@@ -54,12 +58,9 @@ The `ETL.ipynb` notebook is used for the initial ETL development:
   - Calculate the total number of listings per neighborhood and add it as a new column (`listings_count_neighborhood`).
 - **Data Loading**: Load the transformed DataFrame into a PostgreSQL table named `airbnb_listings_enhanced`.
 
-To run the notebook:
-```sh
-python ETL.py run
-```
+### 2. Then after the development is done in the ETL.ipynb file , I created the ETL.py to start the workflow using metaflow. The working of the .py file using metaflow is as follows -
 
-The ETL.py script uses Metaflow to define an automated ETL workflow:
+**The ETL.py script to define an automated ETL workflow:**
 
 	•	start: Initialize the ETL flow.
 	•	load_data: Load data from the PostgreSQL table into a pandas DataFrame.
