@@ -39,8 +39,7 @@ The dataset used in this project is the **Airbnb New York City 2019** dataset, a
     ```
 
 3. Set up your PostgreSQL database and create a database named `airbnb-ny`. Update the database connection parameters in both `ETL.ipynb` and `ETL.py` with your PostgreSQL credentials.
-4. 
-To run the notebook:
+4. To run the notebook:
 ```sh
 python ETL.py run
 ```
