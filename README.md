@@ -56,7 +56,8 @@ The `ETL.ipynb` notebook is used for the initial ETL development:
 
 To run the notebook:
 ```sh
-python ETL.py run```
+python ETL.py run
+```
 
 The ETL.py script uses Metaflow to define an automated ETL workflow:
 
