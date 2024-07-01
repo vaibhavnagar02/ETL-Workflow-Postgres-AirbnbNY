@@ -1,0 +1,3 @@
+pandas
+qlalchemy 
+psycopg2-binary
