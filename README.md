@@ -56,11 +56,11 @@ The `ETL.ipynb` notebook is used for the initial ETL development:
 
 To run the notebook:
 ```sh
-jupyter notebook ETL.ipynb
+python ETL.py run
 
 
 
-**The ETL.py script uses Metaflow to define an automated ETL workflow:**
+The ETL.py script uses Metaflow to define an automated ETL workflow:
 
 	•	start: Initialize the ETL flow.
 	•	load_data: Load data from the PostgreSQL table into a pandas DataFrame.
