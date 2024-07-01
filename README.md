@@ -8,13 +8,8 @@ This project demonstrates a scalable ETL (Extract, Transform, Load) pipeline usi
 2. **ETL.py**: A Metaflow script that defines a reproducible and robust ETL workflow, automating the steps defined in the notebook.
 
 ## Project Structure
+<img width="555" alt="Screenshot 2024-07-01 at 12 23 53" src="https://github.com/vaibhavnagar02/ETL-Workflow-Postgres-AirbnbNY/assets/87512533/09c1ae29-f37f-4e79-9acf-3871a410486e">
 
-├── data/
-│   └── AB_NYC_2019.csv  # The raw dataset used for the project
-│
-├── ETL.ipynb            # Jupyter notebook for initial ETL development and testing
-├── ETL.py               # Metaflow script for the ETL workflow
-└── README.md            # Project documentation
 
 ## Dataset
 The dataset used in this project is the **Airbnb New York City 2019** dataset, available on Kaggle. It contains information about Airbnb listings in NYC, including details about the hosts, location, price, availability, and more.
